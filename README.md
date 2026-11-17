@@ -1,0 +1,1 @@
+QubitAI is an AI-powered student assistant designed to enhance learning, track academic progress, support career development, and improve personal growth through a smart and interactive dashboard. Built using HTML, CSS, JavaScript, Python Flask, and SQLite.

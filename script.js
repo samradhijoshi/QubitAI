@@ -763,3 +763,13 @@ function appendMessage(text, sender) {
     chatBox.scrollTop = chatBox.scrollHeight;
     return uniqueId;
 }
+const API_URL = "https://qubitai-2.onrender.com";
+
+fetch(`${API_URL}/api/test`)
+  .then(response => response.json())
+  .then(data => {
+    console.log("Backend Connected:", data);
+  })
+  .catch(error => {
+    console.error("Connection Error:", error);
+  });

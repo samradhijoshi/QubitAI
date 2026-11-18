@@ -1,3 +1,5 @@
+const API_url=
+    "https://qubitai-2.onrender.com"
 // ==========================================
 // 1. QUBITAI AI CHAT SYSTEM
 // ==========================================
